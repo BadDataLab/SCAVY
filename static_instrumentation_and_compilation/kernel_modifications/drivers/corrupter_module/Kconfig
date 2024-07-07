@@ -1,0 +1,5 @@
+config CORRUPTER_MODULE
+	tristate "Enable corrupter and memory access tracer module"
+	default y
+	help
+	  Select this to enable corrupter module.
