@@ -1,6 +1,6 @@
 # how to use this
 
-1. Download `llvm-13.0.0` project source code.
+1. Download `llvm-13.0.0.src` project source code.
 2. Copy the folder into `lib/Transforms/` folder of your `llvm-13.0.0.src` folder.
-3. Edit the original `CMakeLists.txt` file to include the new `CallAndDerefPass` folder.
+3. Edit the original `CMakeLists.txt` file in the folder above to include the new `CallAndDerefPass` folder.
 4. Compile the llvm in **release** mode (refer to their documentation on this).
